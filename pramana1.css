@@ -1,0 +1,90 @@
+html{
+  background-color: black;
+  font-family: "Arial";
+}
+.header
+{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.contenthead
+{
+  color:white;
+  height: 12%;
+}
+.contentheader{
+  display: block;
+  float: left;
+  text-align: center;
+  width: 33.3333%;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.hr1{
+  width: 100%;
+}
+
+hr {
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+.content{
+  color: white;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+.footer
+{
+  margin-top:600px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+a:link , a:visited, a:active, a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.w3-content{
+  margin-bottom: 30px;
+  max-width:980px;
+  margin:auto;
+}
+.desc{
+  color: white;
+  margin-top: 50px;
+}
+.h1
+{
+  color: white;
+}
+.description{
+  font-size: 25px;
+}
+.table1,td{
+  color: white;
+  border: 1px solid white;
+  font-size: 25px;
+}
+td{
+  padding: 35px;
+}
+form, input,select{
+  font-size: 25px;
+}
