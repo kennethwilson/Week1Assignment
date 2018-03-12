@@ -50,7 +50,7 @@
 <div class="content">
 <center>
 <table class="table1">
-<form name="myForm" action="booking.php" onsubmit="return validateform()" method="post">
+<form name="myForm" action="book_database_insert.php" onsubmit="return validateform()" method="post">
   <tr>
     <td colspan="2"><center>BOOK ROOM</center> </td>
   </tr>
@@ -89,9 +89,9 @@
   <tr>
     <td>Additional Charge</td>
     <td>
-      <input type="checkbox" name="add_charge" value="1">Extra Bed - $80<br>
-      <input type="checkbox" name="add_charge" value="2">Airport Shuttle - $40 <br>
-      <input type="checkbox" name="add_charge" value="3">Ubud Tour 1D - $100 <br>
+      <input type="checkbox" name="addcharge1" value="1">Extra Bed - $80<br>
+      <input type="checkbox" name="addcharge2" value="1">Airport Shuttle - $40 <br>
+      <input type="checkbox" name="addcharge3" value="1">Ubud Tour 1D - $100 <br>
     </td>
   </tr>
   <tr>
